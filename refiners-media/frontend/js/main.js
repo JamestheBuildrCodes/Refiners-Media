@@ -1,8 +1,6 @@
 /* ─── REFINERS MEDIA — MAIN JS ──────────────────────────────────────────── */
 
-const API_BASE = window.location.hostname === 'localhost' || window.location.hostname === '127.0.0.1'
-  ? 'http://localhost:3001'
-  : '';  // Same origin in production
+const API_BASE = 'https://refiners-media-api.onrender.com';  // Same origin in production
 
 // ─── PAGE LOADER ─────────────────────────────────────────────────────────────
 window.addEventListener('load', () => {
