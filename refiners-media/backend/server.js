@@ -8,10 +8,39 @@ const PORT = process.env.PORT || 3001;
 
 // Middleware
 app.use(cors({
-  origin: ['http://localhost:3000', 'http://127.0.0.1:5500', '*'],
+  origin: '*',
   methods: ['GET', 'POST'],
   allowedHeaders: ['Content-Type']
 }));
+```
+
+**5. Scroll down → "Commit changes" → "Commit directly to main" → Commit**
+
+---
+
+## What happens next — Render auto-redeploys
+
+After you commit, Render will automatically detect the change and redeploy the backend. Watch it here:
+```
+https://dashboard.render.com
+```
+Wait until it says **"Live"** again — takes about 1–2 minutes.
+
+---
+
+## Then test the form again
+
+1. Open your Netlify site
+2. Submit the contact form
+3. You should see the green success message ✅
+
+---
+
+## Confirm submissions are saving
+
+After a successful form submit, open this in your browser:
+```
+https://refiners-media-api.onrender.com/api/contacts
 app.use(express.json());
 app.use(express.urlencoded({ extended: true }));
 
