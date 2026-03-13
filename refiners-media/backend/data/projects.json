@@ -1,0 +1,50 @@
+[
+  {
+    "id": 1,
+    "title": "Luxe Brand Identity",
+    "category": "Branding",
+    "description": "Complete visual identity system for a luxury lifestyle brand including logo, color palette, and brand guidelines.",
+    "image": "https://images.unsplash.com/photo-1634942537034-2531766767d1?w=600&q=80",
+    "tags": ["Branding", "Logo", "Identity"]
+  },
+  {
+    "id": 2,
+    "title": "Social Media Campaign",
+    "category": "Social Media",
+    "description": "60-post social media design system for a tech startup's product launch campaign.",
+    "image": "https://images.unsplash.com/photo-1611162617213-7d7a39e9b1d7?w=600&q=80",
+    "tags": ["Social Media", "Campaign", "Design"]
+  },
+  {
+    "id": 3,
+    "title": "Marketing Collateral Suite",
+    "category": "Marketing",
+    "description": "Complete marketing materials including brochures, flyers, banners, and presentation decks.",
+    "image": "https://images.unsplash.com/photo-1558655146-9f40138edfeb?w=600&q=80",
+    "tags": ["Marketing", "Print", "Digital"]
+  },
+  {
+    "id": 4,
+    "title": "Fashion Brand Rebrand",
+    "category": "Branding",
+    "description": "Full rebrand for an emerging fashion label — from concept to final visual identity rollout.",
+    "image": "https://images.unsplash.com/photo-1558769132-cb1aea458c5e?w=600&q=80",
+    "tags": ["Branding", "Fashion", "Rebrand"]
+  },
+  {
+    "id": 5,
+    "title": "Restaurant Visual System",
+    "category": "Graphic Design",
+    "description": "Menu design, signage, packaging, and brand touch-points for a premium restaurant chain.",
+    "image": "https://images.unsplash.com/photo-1414235077428-338989a2e8c0?w=600&q=80",
+    "tags": ["Graphic Design", "Packaging", "Branding"]
+  },
+  {
+    "id": 6,
+    "title": "Creative Campaign — TechX",
+    "category": "Campaign",
+    "description": "End-to-end creative campaign design for a fintech company's product awareness drive.",
+    "image": "https://images.unsplash.com/photo-1551650975-87deedd944c3?w=600&q=80",
+    "tags": ["Campaign", "Fintech", "Digital"]
+  }
+]
